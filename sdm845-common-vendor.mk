@@ -43,4 +43,5 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     qcrilmsgtunnel \
+    CNEService \
     dashd
