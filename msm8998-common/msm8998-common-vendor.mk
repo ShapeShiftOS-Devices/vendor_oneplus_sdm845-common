@@ -1264,6 +1264,7 @@ PRODUCT_PACKAGES += \
     embms \
     imssettings \
     ims \
+    uceShimService \
     qcrilmsgtunnel \
     CneApp \
     WfdCommon
