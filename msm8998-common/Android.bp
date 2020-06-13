@@ -31,6 +31,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "vendor.oneplus.camera.CameraHIDL-V1.0-java",
+	owner: "oneplus",
+	jars: ["proprietary/framework/vendor.oneplus.camera.CameraHIDL-V1.0-java.jar"],
+}
+
+dex_import {
 	name: "vendor.oneplus.hardware.param-V1.0-java",
 	owner: "oneplus",
 	jars: ["proprietary/framework/vendor.oneplus.hardware.param-V1.0-java.jar"],
