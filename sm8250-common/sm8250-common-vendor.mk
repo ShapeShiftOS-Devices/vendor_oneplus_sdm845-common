@@ -113,7 +113,27 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/oneplus/sm8250-common/proprietary/bin/dashd:$(TARGET_COPY_OUT_SYSTEM)/bin/dashd \
     vendor/oneplus/sm8250-common/proprietary/product/vendor_overlay/29/lib/libgf_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgf_ud_hal.so \
-    vendor/oneplus/sm8250-common/proprietary/product/vendor_overlay/29/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgf_ud_hal.so
+    vendor/oneplus/sm8250-common/proprietary/product/vendor_overlay/29/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgf_ud_hal.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@1.0.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@1.1.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@1.2.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@2.0.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@2.1.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@3.0.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.0.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.1.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@1.2.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@2.0.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@2.1.so \
+    vendor/oneplus/sm8250-common/proprietary/product/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@3.0.so \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
+    vendor/oneplus/sm8250-common/proprietary/system/lib/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblocationservice_jni.so \
+    vendor/oneplus/sm8250-common/proprietary/system/lib/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxt_native.so \
+    vendor/oneplus/sm8250-common/proprietary/system/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
+    vendor/oneplus/sm8250-common/proprietary/system/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -125,4 +145,7 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
-    qcnvitems
+    qcnvitems \
+    com.qualcomm.location \
+    com.qti.location.sdk \
+    izat.xt.srv
