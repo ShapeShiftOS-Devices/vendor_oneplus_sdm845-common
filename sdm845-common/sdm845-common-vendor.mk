@@ -1239,7 +1239,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
-    libplatformconfig \
     libtinycompress \
     libqct_resampler \
     CACertService \
